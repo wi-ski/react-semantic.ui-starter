@@ -1,3 +1,955 @@
-var __wpo = {"assets":{"main":["/react-semantic.ui-starter/vendor.fce0f545.css","/react-semantic.ui-starter/vendor.fce0f545.js"],"additional":[],"optional":["/react-semantic.ui-starter/674f50d287a8c48dc19ba404d20fe713.eot","/react-semantic.ui-starter/677433a0892aaed7b7d2628c313c9775.svg","/react-semantic.ui-starter/9c74e172f87984c48ddf5c8108cabe67.png","/react-semantic.ui-starter/b06871f281fee6b241d60582ae9369b9.ttf","/react-semantic.ui-starter/fee66e712a8a08eef5805a46892932ad.woff","/react-semantic.ui-starter/af7ae505a9eed503f8b8e6982036873e.woff2","/react-semantic.ui-starter/client.f8ac2fbe.js","/react-semantic.ui-starter/client.f8ac2fbe.css","/react-semantic.ui-starter/client.f8ac2fbe.js.map","/react-semantic.ui-starter/client.f8ac2fbe.css.map","/react-semantic.ui-starter/vendor.fce0f545.js.map","/react-semantic.ui-starter/vendor.fce0f545.css.map","/react-semantic.ui-starter/","/react-semantic.ui-starter/images/dummy.png","/react-semantic.ui-starter/images/.DS_Store","/react-semantic.ui-starter/.DS_Store","/react-semantic.ui-starter/images/logo.png","/react-semantic.ui-starter/images/touch/apple-touch-icon.png","/react-semantic.ui-starter/images/touch/icon-128x128.png","/react-semantic.ui-starter/images/touch/chrome-touch-icon-192x192.png","/react-semantic.ui-starter/readme.md","/react-semantic.ui-starter/images/touch/ms-touch-icon-144x144-precomposed.png","/react-semantic.ui-starter/manifest.json"]},"externals":[],"hashesMap":{"d980c2ce873dc43af460d4d572d441304499f400":"/react-semantic.ui-starter/674f50d287a8c48dc19ba404d20fe713.eot","1c3ba3b813e1080e9721846f23a21c09e5c3fd27":"/react-semantic.ui-starter/677433a0892aaed7b7d2628c313c9775.svg","4a552ecb123ded5040ddda01d626103cc65db055":"/react-semantic.ui-starter/9c74e172f87984c48ddf5c8108cabe67.png","13b1eab65a983c7a73bc7997c479d66943f7c6cb":"/react-semantic.ui-starter/b06871f281fee6b241d60582ae9369b9.ttf","28b782240b3e76db824e12c02754a9731a167527":"/react-semantic.ui-starter/fee66e712a8a08eef5805a46892932ad.woff","d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c":"/react-semantic.ui-starter/af7ae505a9eed503f8b8e6982036873e.woff2","64d6fdd009435aeb2aa3baa06819cead2a0ba903":"/react-semantic.ui-starter/client.f8ac2fbe.js","f1a0312bf59ce2da8bc53a7a9b716b159b0b0dab":"/react-semantic.ui-starter/vendor.fce0f545.js","37d7a95b4ac6169b92942dff0889d693a751346e":"/react-semantic.ui-starter/client.f8ac2fbe.css","c51934329f6635d583aa7f8c058a017123d70e7a":"/react-semantic.ui-starter/vendor.fce0f545.css","f44315c977d75a6f04f80c2eac825aee28adfede":"/react-semantic.ui-starter/client.f8ac2fbe.js.map","74fc27fe89e2fdac8269daa7e51c253748c9ef4f":"/react-semantic.ui-starter/client.f8ac2fbe.css.map","b093bd0bf2b106d1b5e9d84b354e982e85b36007":"/react-semantic.ui-starter/vendor.fce0f545.js.map","2c541a32ca52d0ad0fdf6fa7d49f6520ccb006ff":"/react-semantic.ui-starter/vendor.fce0f545.css.map","c430bd1523b098f9aa18c3da06898ff71c9c75d3":"/react-semantic.ui-starter/","713b4294e79baf154e45e2eeded22ecd7ac5c850":"/react-semantic.ui-starter/images/dummy.png","89f27b42cee3efae37aa9787d3816c20065fbaa1":"/react-semantic.ui-starter/images/.DS_Store","495dc0d217dbc3e7cb0c015a4aa9af3e7011d37f":"/react-semantic.ui-starter/.DS_Store","c698a9975db7719191793e2f3ab2d93bf5418601":"/react-semantic.ui-starter/images/logo.png","56a8fc05a2595be13163f2d1902442d60a56c4e2":"/react-semantic.ui-starter/images/touch/apple-touch-icon.png","e33f5e940b27a4b0cec25f52ddda912602a26cc1":"/react-semantic.ui-starter/images/touch/icon-128x128.png","8ee5f4aabffd7efecd16578590563ba030dfbc40":"/react-semantic.ui-starter/images/touch/chrome-touch-icon-192x192.png","64e4d6fb5b5b4452ebb6d1d3867cbff8a62465ba":"/react-semantic.ui-starter/readme.md","fd59ce81bdabd0d7cd7b458fed19af59b44d5f7f":"/react-semantic.ui-starter/images/touch/ms-touch-icon-144x144-precomposed.png","abd3aeba4f6a066df697543468026c1d32253045":"/react-semantic.ui-starter/manifest.json"},"navigateFallbackURL":"/","navigateFallbackForRedirects":true,"strategy":"changed","responseStrategy":"cache-first","version":"4/17/2017, 1:24:34 AM","name":"webpack-offline","pluginVersion":"4.7.0","relativePaths":false};
+var __wpo = {
+  "assets": {
+    "main": [
+      "/react-semantic.ui-starter/vendor.4dd5cda3.css",
+      "/react-semantic.ui-starter/vendor.4dd5cda3.js"
+    ],
+    "additional": [],
+    "optional": [
+      "/react-semantic.ui-starter/icons/apple-touch-icon-57x57.png",
+      "/react-semantic.ui-starter/icons/apple-touch-icon-60x60.png",
+      "/react-semantic.ui-starter/icons/apple-touch-icon-72x72.png",
+      "/react-semantic.ui-starter/icons/apple-touch-icon-76x76.png",
+      "/react-semantic.ui-starter/icons/apple-touch-icon-114x114.png",
+      "/react-semantic.ui-starter/icons/apple-touch-icon-120x120.png",
+      "/react-semantic.ui-starter/icons/apple-touch-icon-144x144.png",
+      "/react-semantic.ui-starter/icons/apple-touch-icon-152x152.png",
+      "/react-semantic.ui-starter/icons/apple-touch-icon-167x167.png",
+      "/react-semantic.ui-starter/icons/apple-touch-icon-180x180.png",
+      "/react-semantic.ui-starter/icons/apple-touch-icon.png",
+      "/react-semantic.ui-starter/icons/apple-touch-icon-precomposed.png",
+      "/react-semantic.ui-starter/icons/favicon-16x16.png",
+      "/react-semantic.ui-starter/icons/favicon-32x32.png",
+      "/react-semantic.ui-starter/icons/favicon.ico",
+      "/react-semantic.ui-starter/icons/android-chrome-36x36.png",
+      "/react-semantic.ui-starter/icons/android-chrome-48x48.png",
+      "/react-semantic.ui-starter/icons/android-chrome-72x72.png",
+      "/react-semantic.ui-starter/icons/android-chrome-96x96.png",
+      "/react-semantic.ui-starter/icons/android-chrome-144x144.png",
+      "/react-semantic.ui-starter/icons/android-chrome-256x256.png",
+      "/react-semantic.ui-starter/icons/android-chrome-192x192.png",
+      "/react-semantic.ui-starter/icons/android-chrome-384x384.png",
+      "/react-semantic.ui-starter/icons/android-chrome-512x512.png",
+      "/react-semantic.ui-starter/icons/mstile-144x144.png",
+      "/react-semantic.ui-starter/icons/mstile-70x70.png",
+      "/react-semantic.ui-starter/icons/mstile-150x150.png",
+      "/react-semantic.ui-starter/icons/mstile-310x150.png",
+      "/react-semantic.ui-starter/icons/mstile-310x310.png",
+      "/react-semantic.ui-starter/icons/firefox_app_60x60.png",
+      "/react-semantic.ui-starter/icons/firefox_app_128x128.png",
+      "/react-semantic.ui-starter/icons/firefox_app_512x512.png",
+      "/react-semantic.ui-starter/icons/apple-touch-startup-image-320x460.png",
+      "/react-semantic.ui-starter/icons/apple-touch-startup-image-640x920.png",
+      "/react-semantic.ui-starter/icons/apple-touch-startup-image-640x1096.png",
+      "/react-semantic.ui-starter/icons/apple-touch-startup-image-748x1024.png",
+      "/react-semantic.ui-starter/icons/apple-touch-startup-image-750x1294.png",
+      "/react-semantic.ui-starter/icons/apple-touch-startup-image-768x1004.png",
+      "/react-semantic.ui-starter/icons/apple-touch-startup-image-1182x2208.png",
+      "/react-semantic.ui-starter/icons/apple-touch-startup-image-1242x2148.png",
+      "/react-semantic.ui-starter/icons/apple-touch-startup-image-1496x2048.png",
+      "/react-semantic.ui-starter/icons/apple-touch-startup-image-1536x2008.png",
+      "/react-semantic.ui-starter/icons/manifest.json",
+      "/react-semantic.ui-starter/icons/browserconfig.xml",
+      "/react-semantic.ui-starter/icons/manifest.webapp",
+      "/react-semantic.ui-starter/674f50d287a8c48dc19ba404d20fe713.eot",
+      "/react-semantic.ui-starter/9c74e172f87984c48ddf5c8108cabe67.png",
+      "/react-semantic.ui-starter/af7ae505a9eed503f8b8e6982036873e.woff2",
+      "/react-semantic.ui-starter/fee66e712a8a08eef5805a46892932ad.woff",
+      "/react-semantic.ui-starter/b06871f281fee6b241d60582ae9369b9.ttf",
+      "/react-semantic.ui-starter/912ec66d7572ff821749319396470bde.svg",
+      "/react-semantic.ui-starter/lazy-containers7.5a60d8.js",
+      "/react-semantic.ui-starter/lazy-containers6.aba0ad.js",
+      "/react-semantic.ui-starter/client.501e89f9.js",
+      "/react-semantic.ui-starter/manifest.5f68b9cc.js",
+      "/react-semantic.ui-starter/icons/favicon.ico.gz",
+      "/react-semantic.ui-starter/icons/browserconfig.xml.gz",
+      "/react-semantic.ui-starter/icons/manifest.json.gz",
+      "/react-semantic.ui-starter/icons/manifest.webapp.gz",
+      "/react-semantic.ui-starter/iconstats-e06ab4b11abc8a930c26.json.gz",
+      "/react-semantic.ui-starter/lazy-containers6.aba0ad.js.gz",
+      "/react-semantic.ui-starter/lazy-containers7.5a60d8.js.gz",
+      "/react-semantic.ui-starter/manifest.5f68b9cc.js.gz",
+      "/react-semantic.ui-starter/client.501e89f9.js.gz",
+      "/react-semantic.ui-starter/lazy-containers6.aba0ad.js.map.gz",
+      "/react-semantic.ui-starter/vendor.4dd5cda3.css.map.gz",
+      "/react-semantic.ui-starter/client.501e89f9.js.map.gz",
+      "/react-semantic.ui-starter/lazy-containers7.5a60d8.js.map.gz",
+      "/react-semantic.ui-starter/manifest.5f68b9cc.js.map.gz",
+      "/react-semantic.ui-starter/674f50d287a8c48dc19ba404d20fe713.eot.gz",
+      "/react-semantic.ui-starter/b06871f281fee6b241d60582ae9369b9.ttf.gz",
+      "/react-semantic.ui-starter/vendor.4dd5cda3.css.gz",
+      "/react-semantic.ui-starter/vendor.4dd5cda3.js.gz",
+      "/react-semantic.ui-starter/vendor.4dd5cda3.js.map.gz",
+      "/react-semantic.ui-starter/912ec66d7572ff821749319396470bde.svg.gz",
+      "/react-semantic.ui-starter/images/daniel.jpg",
+      "/react-semantic.ui-starter/images/dummy.png",
+      "/react-semantic.ui-starter/images/logo.png",
+      "/react-semantic.ui-starter/manifest.json"
+    ]
+  },
+  "externals": [],
+  "hashesMap": {
+    "7dd8fbd1916544bc1d8ba6ea8a252ae2cbc20c8c": "/react-semantic.ui-starter/icons/apple-touch-icon-57x57.png",
+    "d2aab1b8db2ee02a1001ad16af981e8f50de12a0": "/react-semantic.ui-starter/icons/apple-touch-icon-60x60.png",
+    "6482c5015530ee7cd3245bf1ca62851175f88112": "/react-semantic.ui-starter/icons/apple-touch-icon-72x72.png",
+    "b195c196d20474062da4f9e40c4d0e3d71505d62": "/react-semantic.ui-starter/icons/apple-touch-icon-76x76.png",
+    "2ace8ef51c8dac4dea3a64855a59df2330a30b4b": "/react-semantic.ui-starter/icons/apple-touch-icon-114x114.png",
+    "7735d1638be16f1acdc8cad1bc44373368e0389e": "/react-semantic.ui-starter/icons/apple-touch-icon-120x120.png",
+    "83077ddb038c5d3af2415d7622b58fda792aa307": "/react-semantic.ui-starter/icons/apple-touch-icon-144x144.png",
+    "eee879abdf015a47f0edbc18fa9b34387ae427ae": "/react-semantic.ui-starter/icons/apple-touch-icon-152x152.png",
+    "ba33b10f03f8fa7002063571f6240725c497af9f": "/react-semantic.ui-starter/icons/apple-touch-icon-167x167.png",
+    "0427d6bbb01609b6b9419c129b28a12f3e4ee631": "/react-semantic.ui-starter/icons/apple-touch-icon-precomposed.png",
+    "1bd837ebbfa35a79fd508f41aac2b7b3a07a0882": "/react-semantic.ui-starter/icons/favicon-16x16.png",
+    "8580242cf7385173b635ec851adc6d159c3f1f92": "/react-semantic.ui-starter/icons/favicon-32x32.png",
+    "010bd41a9fecd0b699ffe32e60149bf06ad0219f": "/react-semantic.ui-starter/icons/favicon.ico",
+    "e901852a81e691b516b14b12a3d4c84a5b67f528": "/react-semantic.ui-starter/icons/android-chrome-36x36.png",
+    "d0333e29240894a81843c1eaa4bc79a59cbc3825": "/react-semantic.ui-starter/icons/android-chrome-48x48.png",
+    "5bb7d8f1e22ea90e2cf49e58f526f4eac85bd99b": "/react-semantic.ui-starter/icons/android-chrome-72x72.png",
+    "3963b74c26b0f5bd15fffe25f49f65f9bf76bbe7": "/react-semantic.ui-starter/icons/android-chrome-96x96.png",
+    "67488c7ae09dcc05f45e8ef38851daa2a3ae5aef": "/react-semantic.ui-starter/icons/mstile-144x144.png",
+    "bf9d6e2763be2e4d88b34a8e4500c02f01ba7a87": "/react-semantic.ui-starter/icons/android-chrome-256x256.png",
+    "8b185de585d9eb3b368ab8852692e8fdf23a61a8": "/react-semantic.ui-starter/icons/android-chrome-192x192.png",
+    "fdc6cfd5e340e318802783d9d930e30fdfaaffbb": "/react-semantic.ui-starter/icons/android-chrome-384x384.png",
+    "ade409e1e0ed52d44b06ded260e96f6a994baa25": "/react-semantic.ui-starter/icons/android-chrome-512x512.png",
+    "0c9a5f8c3de3e70ec5b82febef09102a66e3d589": "/react-semantic.ui-starter/icons/mstile-70x70.png",
+    "cba5490a752177c6ce562ad22c14fda2ef9611a5": "/react-semantic.ui-starter/icons/mstile-150x150.png",
+    "27f6e4194f7b7ac214c5ba4fc186008233808aa2": "/react-semantic.ui-starter/icons/mstile-310x150.png",
+    "714671eaab11df4042caa3818c43c0c4a3fc0a4d": "/react-semantic.ui-starter/icons/mstile-310x310.png",
+    "4e80af33d5fd8bc0722787e600e98f88e13bcb1f": "/react-semantic.ui-starter/icons/firefox_app_60x60.png",
+    "fcba2c18afd369acc90b31608188206116f2e9e2": "/react-semantic.ui-starter/icons/firefox_app_128x128.png",
+    "3c10186486c72ab45cb6ea3f7e7878b2dc17974e": "/react-semantic.ui-starter/icons/firefox_app_512x512.png",
+    "3a545e3fe6f5f04fa95a7f1f40300d77e3cfb9f8": "/react-semantic.ui-starter/icons/apple-touch-startup-image-320x460.png",
+    "317f686652eb5b3f8a1b61c1748d110b4fc26dc0": "/react-semantic.ui-starter/icons/apple-touch-startup-image-640x920.png",
+    "8c0b33cb59838c24492b88adc5d51af09777628d": "/react-semantic.ui-starter/icons/apple-touch-startup-image-640x1096.png",
+    "95a7e1ae281fb9210869e2726d619b49b5f0d3d1": "/react-semantic.ui-starter/icons/apple-touch-startup-image-748x1024.png",
+    "ee1f926c3e1761030351c7d7c4d49e24bcd41cd6": "/react-semantic.ui-starter/icons/apple-touch-startup-image-750x1294.png",
+    "7b1e033d08e465d45363d9b6fe011dd0b144d9c4": "/react-semantic.ui-starter/icons/apple-touch-startup-image-768x1004.png",
+    "66ef091dcc58284d86694a7c4e64bf5be42e2f88": "/react-semantic.ui-starter/icons/apple-touch-startup-image-1182x2208.png",
+    "ac69b37eed51047f4e9eac396adee7e737c3c001": "/react-semantic.ui-starter/icons/apple-touch-startup-image-1242x2148.png",
+    "490a31e884fc15e45cb68e2c64ae5adebbbdcc1a": "/react-semantic.ui-starter/icons/apple-touch-startup-image-1496x2048.png",
+    "b06de11c1ff9ae17fb3b0ff5facad8dc29b72c58": "/react-semantic.ui-starter/icons/apple-touch-startup-image-1536x2008.png",
+    "ce4adefbf695f8e7eb8e64ea67a0ea7eec8f4f46": "/react-semantic.ui-starter/icons/manifest.json",
+    "5b4f37d41ff649e9eeeb04ca9cc8b94c6757c986": "/react-semantic.ui-starter/icons/browserconfig.xml",
+    "f94e193070f8bc3c550af8800d0cdd3ed14d4a14": "/react-semantic.ui-starter/icons/manifest.webapp",
+    "d980c2ce873dc43af460d4d572d441304499f400": "/react-semantic.ui-starter/674f50d287a8c48dc19ba404d20fe713.eot",
+    "4a552ecb123ded5040ddda01d626103cc65db055": "/react-semantic.ui-starter/9c74e172f87984c48ddf5c8108cabe67.png",
+    "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c": "/react-semantic.ui-starter/af7ae505a9eed503f8b8e6982036873e.woff2",
+    "28b782240b3e76db824e12c02754a9731a167527": "/react-semantic.ui-starter/fee66e712a8a08eef5805a46892932ad.woff",
+    "13b1eab65a983c7a73bc7997c479d66943f7c6cb": "/react-semantic.ui-starter/b06871f281fee6b241d60582ae9369b9.ttf",
+    "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed": "/react-semantic.ui-starter/912ec66d7572ff821749319396470bde.svg",
+    "27ec391d6a25aaddfb2628590e0d2e5baeb2e725": "/react-semantic.ui-starter/lazy-containers7.5a60d8.js",
+    "ed1283d16dca603e7024b84c6cd87c58ab17e467": "/react-semantic.ui-starter/lazy-containers6.aba0ad.js",
+    "af5ea50b711b97b4118dd89a623e41503d866ba8": "/react-semantic.ui-starter/vendor.4dd5cda3.js",
+    "e09105deacd3fe11c671d9e5557b87bc3c6cb243": "/react-semantic.ui-starter/client.501e89f9.js",
+    "12df260649ba62f84217dcdf01c37bce481c3218": "/react-semantic.ui-starter/manifest.5f68b9cc.js",
+    "fb73013657b95e6d27182a476d63b1144ef678b2": "/react-semantic.ui-starter/vendor.4dd5cda3.css",
+    "3205d96622f4e4203063d9adfd71c0bdcb30fd12": "/react-semantic.ui-starter/icons/favicon.ico.gz",
+    "5929c9250f9793d41e2572cd3a3a003ee29a536a": "/react-semantic.ui-starter/icons/browserconfig.xml.gz",
+    "86b7b1c799a09a776d197bbd895097a7c7fe728b": "/react-semantic.ui-starter/icons/manifest.json.gz",
+    "aeb6a6ce03cbb13dfde72c6f142ab0d1bf933b45": "/react-semantic.ui-starter/icons/manifest.webapp.gz",
+    "4f8505b6624d734619a4a7cd810c51005f1a4558": "/react-semantic.ui-starter/iconstats-e06ab4b11abc8a930c26.json.gz",
+    "4ac5e284ed404dbe8fa2ec9a7b33589127ad20af": "/react-semantic.ui-starter/lazy-containers6.aba0ad.js.gz",
+    "d1128034346f3615a194e4bf6f40e3814ad627f0": "/react-semantic.ui-starter/lazy-containers7.5a60d8.js.gz",
+    "b613d0aac1dccc0f68b60c7489d9453e76d70a50": "/react-semantic.ui-starter/manifest.5f68b9cc.js.gz",
+    "c08e57da55663586c61bae06c3a72255c81addbe": "/react-semantic.ui-starter/client.501e89f9.js.gz",
+    "38f889499e6e4abe74833c0f19a8bb787e704764": "/react-semantic.ui-starter/lazy-containers6.aba0ad.js.map.gz",
+    "b46272a7952067fe2e65c56138334617694b97b7": "/react-semantic.ui-starter/vendor.4dd5cda3.css.map.gz",
+    "a988149968e88d2eda6fac0861efc58fe156d7e7": "/react-semantic.ui-starter/client.501e89f9.js.map.gz",
+    "d4a765f7e82de895e6388f0d7fa53291f410e500": "/react-semantic.ui-starter/lazy-containers7.5a60d8.js.map.gz",
+    "e7412dbfb996ea8d05b40d84c825167f83984e31": "/react-semantic.ui-starter/manifest.5f68b9cc.js.map.gz",
+    "829bd34c27e3dc0b94ddb0f1e4621ff089e5fb8c": "/react-semantic.ui-starter/674f50d287a8c48dc19ba404d20fe713.eot.gz",
+    "c68c3f3322195d93ca6ce17c79dd5a6c47544394": "/react-semantic.ui-starter/b06871f281fee6b241d60582ae9369b9.ttf.gz",
+    "eef2795f0d0e43c4a97f13e4c078f220adc41458": "/react-semantic.ui-starter/vendor.4dd5cda3.css.gz",
+    "2aaf165fa7af2a8456da729bc4fbd05024c364cc": "/react-semantic.ui-starter/vendor.4dd5cda3.js.gz",
+    "e407d1a9752e4610534ca82ff3a944346cbac869": "/react-semantic.ui-starter/vendor.4dd5cda3.js.map.gz",
+    "6e5ce5a0b6975473345408b6bb6a5ad5b39984bc": "/react-semantic.ui-starter/912ec66d7572ff821749319396470bde.svg.gz",
+    "a7e7a8fff9de055f6c0e0ddc2870ae14c4523f5a": "/react-semantic.ui-starter/images/daniel.jpg",
+    "713b4294e79baf154e45e2eeded22ecd7ac5c850": "/react-semantic.ui-starter/images/dummy.png",
+    "c698a9975db7719191793e2f3ab2d93bf5418601": "/react-semantic.ui-starter/images/logo.png",
+    "de1d11861dfa64639bac0137b59473f6b3b2b4aa": "/react-semantic.ui-starter/manifest.json"
+  },
+  "navigateFallbackURL": "/",
+  "navigateFallbackForRedirects": true,
+  "strategy": "changed",
+  "responseStrategy": "cache-first",
+  "version": "2017-7-9 17:31:41",
+  "name": "webpack-offline",
+  "pluginVersion": "4.8.1",
+  "relativePaths": false
+};
 
-!function(n){function e(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return n[r].call(o.exports,o,o.exports,e),o.l=!0,o.exports}var t={};e.m=n,e.c=t,e.i=function(n){return n},e.d=function(n,t,r){e.o(n,t)||Object.defineProperty(n,t,{configurable:!1,enumerable:!0,get:r})},e.n=function(n){var t=n&&n.__esModule?function(){return n.default}:function(){return n};return e.d(t,"a",t),t},e.o=function(n,e){return Object.prototype.hasOwnProperty.call(n,e)},e.p="/react-semantic.ui-starter/",e(e.s=1)}([function(n,e){},function(n,e,t){"use strict";function r(n,e){return caches.match(n,{cacheName:e}).then(function(t){return c()?t:a(t).then(function(t){return caches.open(e).then(function(e){return e.put(n,t)}).then(function(){return t})})}).catch(function(){})}function o(n,e){return n+(-1!==n.indexOf("?")?"&":"?")+"__uncache="+encodeURIComponent(e)}function i(n){return"navigate"===n.mode||n.headers.get("Upgrade-Insecure-Requests")||-1!==(n.headers.get("Accept")||"").indexOf("text/html")}function c(n){return!n||!n.redirected||!n.ok||"opaqueredirect"===n.type}function a(n){return c(n)?Promise.resolve(n):("body"in n?Promise.resolve(n.body):n.blob()).then(function(e){return new Response(e,{headers:n.headers,status:n.status})})}function u(n){return Object.keys(n).reduce(function(e,t){return e[t]=n[t],e},{})}function s(n,e){console.groupCollapsed("[SW]:",n),e.forEach(function(n){console.log("Asset:",n)}),console.groupEnd()}if(void 0===f)var f=!1;!function(n,e){function t(){if(!S.additional.length)return Promise.resolve();f&&console.log("[SW]:","Caching additional");var n=void 0;return n="changed"===b?l("additional"):c("additional"),n.catch(function(n){console.error("[SW]:","Cache section `additional` failed to load")})}function c(e){var t=S[e];return caches.open(E).then(function(e){return O(e,t,{bust:n.version,request:n.prefetchRequest})}).then(function(){s("Cached assets: "+e,t)}).catch(function(n){throw console.error(n),n})}function l(e){return d().then(function(t){if(!t)return c(e);var r=t[0],o=t[1],i=t[2],a=i.hashmap,u=i.version;if(!i.hashmap||u===n.version)return c(e);var f=Object.keys(a).map(function(n){return a[n]}),l=o.map(function(n){var e=new URL(n.url);return e.search="",e.toString()}),h=S[e],d=[],p=h.filter(function(n){return-1===l.indexOf(n)||-1===f.indexOf(n)});Object.keys(W).forEach(function(n){var e=W[n];if(-1!==h.indexOf(e)&&-1===p.indexOf(e)&&-1===d.indexOf(e)){var t=a[n];t&&-1!==l.indexOf(t)?d.push([t,e]):p.push(e)}}),s("Changed assets: "+e,p),s("Moved assets: "+e,d);var v=Promise.all(d.map(function(n){return r.match(n[0]).then(function(e){return[n[1],e]})}));return caches.open(E).then(function(e){var t=v.then(function(n){return Promise.all(n.map(function(n){return e.put(n[0],n[1])}))});return Promise.all([t,O(e,p,{bust:n.version,request:n.prefetchRequest})])})})}function h(){return caches.keys().then(function(n){var e=n.map(function(n){if(0===n.indexOf(U)&&0!==n.indexOf(E))return console.log("[SW]:","Delete cache:",n),caches.delete(n)});return Promise.all(e)})}function d(){return caches.keys().then(function(n){for(var e=n.length,t=void 0;e--&&(t=n[e],0!==t.indexOf(U)););if(t){var r=void 0;return caches.open(t).then(function(n){return r=n,n.match(new URL(j,location).toString())}).then(function(n){if(n)return Promise.all([r,r.keys(),n.json()])})}})}function p(){return caches.open(E).then(function(e){var t=new Response(JSON.stringify({version:n.version,hashmap:W}));return e.put(new URL(j,location).toString(),t)})}function v(n,e,t){return r(t,E).then(function(r){return r?(f&&console.log("[SW]:","URL ["+t+"]("+e+") from cache"),r):fetch(n.request).then(function(n){return n.ok?(f&&console.log("[SW]:","URL ["+e+"] from network"),t===e&&function(){var t=n.clone();caches.open(E).then(function(n){return n.put(e,t)}).then(function(){console.log("[SW]:","Cache asset: "+e)})}(),n):(f&&console.log("[SW]:","URL ["+e+"] wrong response: ["+n.status+"] "+n.type),n)})})}function g(n,e,t){return fetch(n.request).then(function(n){if(n.ok)return f&&console.log("[SW]:","URL ["+e+"] from network"),n;throw new Error("Response is not ok")}).catch(function(){return f&&console.log("[SW]:","URL ["+e+"] from cache if possible"),r(t,E)})}function m(n){return n.catch(function(){}).then(function(n){var e=n&&n.ok,t=n&&"opaqueredirect"===n.type;return e||t&&!M?n:(f&&console.log("[SW]:","Loading navigation fallback ["+C+"] from cache"),r(C,E))})}function O(n,e,t){var r=!1!==t.allowLoaders,i=t&&t.bust,c=t.request||{credentials:"omit",mode:"cors"};return Promise.all(e.map(function(n){return i&&(n=o(n,i)),fetch(n,c).then(a)})).then(function(o){if(o.some(function(n){return!n.ok}))return Promise.reject(new Error("Wrong response status"));var i=[],c=o.map(function(t,o){return r&&i.push(w(e[o],t)),n.put(e[o],t)});return i.length?function(){var r=u(t);r.allowLoaders=!1;var o=c;c=Promise.all(i).then(function(t){var i=[].concat.apply([],t);return e.length&&(o=o.concat(O(n,i,r))),Promise.all(o)})}():c=Promise.all(c),c})}function w(n,e){var t=Object.keys(L).map(function(t){if(-1!==L[t].indexOf(n)&&k[t])return k[t](e.clone())}).filter(function(n){return!!n});return Promise.all(t).then(function(n){return[].concat.apply([],n)})}function x(n){var e=n.url,t=new URL(e),r=void 0;r="navigate"===n.mode?"navigate":t.origin===location.origin?"same-origin":"cross-origin";for(var o=0;o<y.length;o++){var i=y[o];if(i&&(!i.requestTypes||-1!==i.requestTypes.indexOf(r))){var c=void 0;if((c="function"==typeof i.match?i.match(t,n):e.replace(i.match,i.to))&&c!==e)return c}}}var k=e.loaders,y=e.cacheMaps,b=n.strategy,R=n.responseStrategy,S=n.assets,L=n.loaders||{},W=n.hashesMap,q=n.externals,U=n.name,P=n.version,E=U+":"+P,j="__offline_webpack__data";!function(){Object.keys(S).forEach(function(n){S[n]=S[n].map(function(n){var e=new URL(n,location);return-1===q.indexOf(n)?e.search="":e.hash="",e.toString()})}),Object.keys(L).forEach(function(n){L[n]=L[n].map(function(n){var e=new URL(n,location);return-1===q.indexOf(n)?e.search="":e.hash="",e.toString()})}),W=Object.keys(W).reduce(function(n,e){var t=new URL(W[e],location);return t.search="",n[e]=t.toString(),n},{}),q=q.map(function(n){var e=new URL(n,location);return e.hash="",e.toString()})}();var _=[].concat(S.main,S.additional,S.optional),C=n.navigateFallbackURL,M=n.navigateFallbackForRedirects;self.addEventListener("install",function(n){console.log("[SW]:","Install event");var e=void 0;e="changed"===b?l("main"):c("main"),n.waitUntil(e)}),self.addEventListener("activate",function(n){console.log("[SW]:","Activate event");var e=t();e=e.then(p),e=e.then(h),e=e.then(function(){if(self.clients&&self.clients.claim)return self.clients.claim()}),n.waitUntil(e)}),self.addEventListener("fetch",function(n){var e=n.request.url,t=new URL(e),r=void 0;-1!==q.indexOf(e)?r=e:(t.search="",r=t.toString());var o="GET"===n.request.method,c=-1!==_.indexOf(r),a=r;if(!c){var u=x(n.request);u&&(a=u,c=!0)}if(!c&&o&&C&&i(n.request))return void n.respondWith(m(fetch(n.request)));if(!c||!o)return void(t.origin!==location.origin&&-1!==navigator.userAgent.indexOf("Firefox/44.")&&n.respondWith(fetch(n.request)));var s=void 0;s="network-first"===R?g(n,r,a):v(n,r,a),C&&i(n.request)&&(s=m(s)),n.respondWith(s)}),self.addEventListener("message",function(n){var e=n.data;if(e)switch(e.action){case"skipWaiting":self.skipWaiting&&self.skipWaiting()}})}(__wpo,{loaders:{},cacheMaps:[]}),n.exports=t(0)}]);
+/*! hash:87fefd46fbf9c51cd92a, chunkhash:b82eaba31a66f5bf52ac, name:__offline_serviceworker, filebase:__offline_serviceworker, query:, file:__offline_serviceworker */
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, {
+/******/ 				configurable: false,
+/******/ 				enumerable: true,
+/******/ 				get: getter
+/******/ 			});
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "/react-semantic.ui-starter/";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+(function () {
+  var waitUntil = ExtendableEvent.prototype.waitUntil;
+  var respondWith = FetchEvent.prototype.respondWith;
+  var promisesMap = new WeakMap();
+
+  ExtendableEvent.prototype.waitUntil = function (promise) {
+    var extendableEvent = this;
+    var promises = promisesMap.get(extendableEvent);
+
+    if (promises) {
+      promises.push(Promise.resolve(promise));
+      return;
+    }
+
+    promises = [Promise.resolve(promise)];
+    promisesMap.set(extendableEvent, promises);
+
+    // call original method
+    return waitUntil.call(extendableEvent, Promise.resolve().then(function processPromises() {
+      var len = promises.length;
+
+      // wait for all to settle
+      return Promise.all(promises.map(function (p) {
+        return p["catch"](function () {});
+      })).then(function () {
+        // have new items been added? If so, wait again
+        if (promises.length != len) return processPromises();
+        // we're done!
+        promisesMap["delete"](extendableEvent);
+        // reject if one of the promises rejected
+        return Promise.all(promises);
+      });
+    }));
+  };
+
+  FetchEvent.prototype.respondWith = function (promise) {
+    this.waitUntil(promise);
+    return respondWith.call(this, promise);
+  };
+})();;
+        'use strict';
+
+if (typeof DEBUG === 'undefined') {
+  var DEBUG = false;
+}
+
+function WebpackServiceWorker(params, helpers) {
+  var loaders = helpers.loaders;
+  var cacheMaps = helpers.cacheMaps;
+
+  var strategy = params.strategy;
+  var responseStrategy = params.responseStrategy;
+
+  var assets = params.assets;
+  var loadersMap = params.loaders || {};
+
+  var hashesMap = params.hashesMap;
+  var externals = params.externals;
+
+  // Not used yet
+  // const alwaysRevalidate = params.alwaysRevalidate;
+  // const ignoreSearch = params.ignoreSearch;
+  // const preferOnline = params.preferOnline;
+
+  var CACHE_PREFIX = params.name;
+  var CACHE_TAG = params.version;
+  var CACHE_NAME = CACHE_PREFIX + ':' + CACHE_TAG;
+
+  var STORED_DATA_KEY = '__offline_webpack__data';
+
+  mapAssets();
+
+  var allAssets = [].concat(assets.main, assets.additional, assets.optional);
+  var navigateFallbackURL = params.navigateFallbackURL;
+  var navigateFallbackForRedirects = params.navigateFallbackForRedirects;
+
+  self.addEventListener('install', function (event) {
+    console.log('[SW]:', 'Install event');
+
+    var installing = undefined;
+
+    if (strategy === 'changed') {
+      installing = cacheChanged('main');
+    } else {
+      installing = cacheAssets('main');
+    }
+
+    event.waitUntil(installing);
+  });
+
+  self.addEventListener('activate', function (event) {
+    console.log('[SW]:', 'Activate event');
+
+    var activation = cacheAdditional();
+
+    // Delete all assets which name starts with CACHE_PREFIX and
+    // is not current cache (CACHE_NAME)
+    activation = activation.then(storeCacheData);
+    activation = activation.then(deleteObsolete);
+    activation = activation.then(function () {
+      if (self.clients && self.clients.claim) {
+        return self.clients.claim();
+      }
+    });
+
+    event.waitUntil(activation);
+  });
+
+  function cacheAdditional() {
+    if (!assets.additional.length) {
+      return Promise.resolve();
+    }
+
+    if (DEBUG) {
+      console.log('[SW]:', 'Caching additional');
+    }
+
+    var operation = undefined;
+
+    if (strategy === 'changed') {
+      operation = cacheChanged('additional');
+    } else {
+      operation = cacheAssets('additional');
+    }
+
+    // Ignore fail of `additional` cache section
+    return operation['catch'](function (e) {
+      console.error('[SW]:', 'Cache section `additional` failed to load');
+    });
+  }
+
+  function cacheAssets(section) {
+    var batch = assets[section];
+
+    return caches.open(CACHE_NAME).then(function (cache) {
+      return addAllNormalized(cache, batch, {
+        bust: params.version,
+        request: params.prefetchRequest
+      });
+    }).then(function () {
+      logGroup('Cached assets: ' + section, batch);
+    })['catch'](function (e) {
+      console.error(e);
+      throw e;
+    });
+  }
+
+  function cacheChanged(section) {
+    return getLastCache().then(function (args) {
+      if (!args) {
+        return cacheAssets(section);
+      }
+
+      var lastCache = args[0];
+      var lastKeys = args[1];
+      var lastData = args[2];
+
+      var lastMap = lastData.hashmap;
+      var lastVersion = lastData.version;
+
+      if (!lastData.hashmap || lastVersion === params.version) {
+        return cacheAssets(section);
+      }
+
+      var lastHashedAssets = Object.keys(lastMap).map(function (hash) {
+        return lastMap[hash];
+      });
+
+      var lastUrls = lastKeys.map(function (req) {
+        var url = new URL(req.url);
+        url.search = '';
+
+        return url.toString();
+      });
+
+      var sectionAssets = assets[section];
+      var moved = [];
+      var changed = sectionAssets.filter(function (url) {
+        if (lastUrls.indexOf(url) === -1 || lastHashedAssets.indexOf(url) === -1) {
+          return true;
+        }
+
+        return false;
+      });
+
+      Object.keys(hashesMap).forEach(function (hash) {
+        var asset = hashesMap[hash];
+
+        // Return if not in sectionAssets or in changed or moved array
+        if (sectionAssets.indexOf(asset) === -1 || changed.indexOf(asset) !== -1 || moved.indexOf(asset) !== -1) return;
+
+        var lastAsset = lastMap[hash];
+
+        if (lastAsset && lastUrls.indexOf(lastAsset) !== -1) {
+          moved.push([lastAsset, asset]);
+        } else {
+          changed.push(asset);
+        }
+      });
+
+      logGroup('Changed assets: ' + section, changed);
+      logGroup('Moved assets: ' + section, moved);
+
+      var movedResponses = Promise.all(moved.map(function (pair) {
+        return lastCache.match(pair[0]).then(function (response) {
+          return [pair[1], response];
+        });
+      }));
+
+      return caches.open(CACHE_NAME).then(function (cache) {
+        var move = movedResponses.then(function (responses) {
+          return Promise.all(responses.map(function (pair) {
+            return cache.put(pair[0], pair[1]);
+          }));
+        });
+
+        return Promise.all([move, addAllNormalized(cache, changed, {
+          bust: params.version,
+          request: params.prefetchRequest
+        })]);
+      });
+    });
+  }
+
+  function deleteObsolete() {
+    return caches.keys().then(function (keys) {
+      var all = keys.map(function (key) {
+        if (key.indexOf(CACHE_PREFIX) !== 0 || key.indexOf(CACHE_NAME) === 0) return;
+
+        console.log('[SW]:', 'Delete cache:', key);
+        return caches['delete'](key);
+      });
+
+      return Promise.all(all);
+    });
+  }
+
+  function getLastCache() {
+    return caches.keys().then(function (keys) {
+      var index = keys.length;
+      var key = undefined;
+
+      while (index--) {
+        key = keys[index];
+
+        if (key.indexOf(CACHE_PREFIX) === 0) {
+          break;
+        }
+      }
+
+      if (!key) return;
+
+      var cache = undefined;
+
+      return caches.open(key).then(function (_cache) {
+        cache = _cache;
+        return _cache.match(new URL(STORED_DATA_KEY, location).toString());
+      }).then(function (response) {
+        if (!response) return;
+
+        return Promise.all([cache, cache.keys(), response.json()]);
+      });
+    });
+  }
+
+  function storeCacheData() {
+    return caches.open(CACHE_NAME).then(function (cache) {
+      var data = new Response(JSON.stringify({
+        version: params.version,
+        hashmap: hashesMap
+      }));
+
+      return cache.put(new URL(STORED_DATA_KEY, location).toString(), data);
+    });
+  }
+
+  self.addEventListener('fetch', function (event) {
+    var requestUrl = event.request.url;
+    var url = new URL(requestUrl);
+    var urlString = undefined;
+
+    if (externals.indexOf(requestUrl) !== -1) {
+      urlString = requestUrl;
+    } else {
+      url.search = '';
+      urlString = url.toString();
+    }
+
+    // Handle only GET requests
+    var isGET = event.request.method === 'GET';
+    var assetMatches = allAssets.indexOf(urlString) !== -1;
+    var cacheUrl = urlString;
+
+    if (!assetMatches) {
+      var cacheRewrite = matchCacheMap(event.request);
+
+      if (cacheRewrite) {
+        cacheUrl = cacheRewrite;
+        assetMatches = true;
+      }
+    }
+
+    if (!assetMatches && isGET) {
+      // If isn't a cached asset and is a navigation request,
+      // fallback to navigateFallbackURL if available
+      if (navigateFallbackURL && isNavigateRequest(event.request)) {
+        event.respondWith(handleNavigateFallback(fetch(event.request)));
+
+        return;
+      }
+    }
+
+    if (!assetMatches || !isGET) {
+      // Fix for https://twitter.com/wanderview/status/696819243262873600
+      if (url.origin !== location.origin && navigator.userAgent.indexOf('Firefox/44.') !== -1) {
+        event.respondWith(fetch(event.request));
+      }
+
+      return;
+    }
+
+    // Logic of caching / fetching is here
+    // * urlString -- url to match from the CACHE_NAME
+    // * event.request -- original Request to perform fetch() if necessary
+    var resource = undefined;
+
+    if (responseStrategy === 'network-first') {
+      resource = networkFirstResponse(event, urlString, cacheUrl);
+    }
+    // 'cache-first'
+    // (responseStrategy has been validated before)
+    else {
+        resource = cacheFirstResponse(event, urlString, cacheUrl);
+      }
+
+    if (navigateFallbackURL && isNavigateRequest(event.request)) {
+      resource = handleNavigateFallback(resource);
+    }
+
+    event.respondWith(resource);
+  });
+
+  self.addEventListener('message', function (e) {
+    var data = e.data;
+    if (!data) return;
+
+    switch (data.action) {
+      case 'skipWaiting':
+        {
+          if (self.skipWaiting) self.skipWaiting();
+        }break;
+    }
+  });
+
+  function cacheFirstResponse(event, urlString, cacheUrl) {
+    return cachesMatch(cacheUrl, CACHE_NAME).then(function (response) {
+      if (response) {
+        if (DEBUG) {
+          console.log('[SW]:', 'URL [' + cacheUrl + '](' + urlString + ') from cache');
+        }
+
+        return response;
+      }
+
+      // Load and cache known assets
+      var fetching = fetch(event.request).then(function (response) {
+        if (!response.ok) {
+          if (DEBUG) {
+            console.log('[SW]:', 'URL [' + urlString + '] wrong response: [' + response.status + '] ' + response.type);
+          }
+
+          return response;
+        }
+
+        if (DEBUG) {
+          console.log('[SW]:', 'URL [' + urlString + '] from network');
+        }
+
+        if (cacheUrl === urlString) {
+          (function () {
+            var responseClone = response.clone();
+            var storing = caches.open(CACHE_NAME).then(function (cache) {
+              return cache.put(urlString, responseClone);
+            }).then(function () {
+              console.log('[SW]:', 'Cache asset: ' + urlString);
+            });
+
+            event.waitUntil(storing);
+          })();
+        }
+
+        return response;
+      });
+
+      return fetching;
+    });
+  }
+
+  function networkFirstResponse(event, urlString, cacheUrl) {
+    return fetch(event.request).then(function (response) {
+      if (response.ok) {
+        if (DEBUG) {
+          console.log('[SW]:', 'URL [' + urlString + '] from network');
+        }
+
+        return response;
+      }
+
+      // Throw to reach the code in the catch below
+      throw new Error('Response is not ok');
+    })
+    // This needs to be in a catch() and not just in the then() above
+    // cause if your network is down, the fetch() will throw
+    ['catch'](function () {
+      if (DEBUG) {
+        console.log('[SW]:', 'URL [' + urlString + '] from cache if possible');
+      }
+
+      return cachesMatch(cacheUrl, CACHE_NAME);
+    });
+  }
+
+  function handleNavigateFallback(fetching) {
+    return fetching['catch'](function () {}).then(function (response) {
+      var isOk = response && response.ok;
+      var isRedirect = response && response.type === 'opaqueredirect';
+
+      if (isOk || isRedirect && !navigateFallbackForRedirects) {
+        return response;
+      }
+
+      if (DEBUG) {
+        console.log('[SW]:', 'Loading navigation fallback [' + navigateFallbackURL + '] from cache');
+      }
+
+      return cachesMatch(navigateFallbackURL, CACHE_NAME);
+    });
+  }
+
+  function mapAssets() {
+    Object.keys(assets).forEach(function (key) {
+      assets[key] = assets[key].map(function (path) {
+        var url = new URL(path, location);
+
+        if (externals.indexOf(path) === -1) {
+          url.search = '';
+        } else {
+          // Remove hash from possible passed externals
+          url.hash = '';
+        }
+
+        return url.toString();
+      });
+    });
+
+    Object.keys(loadersMap).forEach(function (key) {
+      loadersMap[key] = loadersMap[key].map(function (path) {
+        var url = new URL(path, location);
+
+        if (externals.indexOf(path) === -1) {
+          url.search = '';
+        } else {
+          // Remove hash from possible passed externals
+          url.hash = '';
+        }
+
+        return url.toString();
+      });
+    });
+
+    hashesMap = Object.keys(hashesMap).reduce(function (result, hash) {
+      var url = new URL(hashesMap[hash], location);
+      url.search = '';
+
+      result[hash] = url.toString();
+      return result;
+    }, {});
+
+    externals = externals.map(function (path) {
+      var url = new URL(path, location);
+      url.hash = '';
+
+      return url.toString();
+    });
+  }
+
+  function addAllNormalized(cache, requests, options) {
+    var allowLoaders = options.allowLoaders !== false;
+    var bustValue = options && options.bust;
+    var requestInit = options.request || {
+      credentials: 'omit',
+      mode: 'cors'
+    };
+
+    return Promise.all(requests.map(function (request) {
+      if (bustValue) {
+        request = applyCacheBust(request, bustValue);
+      }
+
+      return fetch(request, requestInit).then(fixRedirectedResponse);
+    })).then(function (responses) {
+      if (responses.some(function (response) {
+        return !response.ok;
+      })) {
+        return Promise.reject(new Error('Wrong response status'));
+      }
+
+      var extracted = [];
+      var addAll = responses.map(function (response, i) {
+        if (allowLoaders) {
+          extracted.push(extractAssetsWithLoaders(requests[i], response));
+        }
+
+        return cache.put(requests[i], response);
+      });
+
+      if (extracted.length) {
+        (function () {
+          var newOptions = copyObject(options);
+          newOptions.allowLoaders = false;
+
+          var waitAll = addAll;
+
+          addAll = Promise.all(extracted).then(function (all) {
+            var extractedRequests = [].concat.apply([], all);
+
+            if (requests.length) {
+              waitAll = waitAll.concat(addAllNormalized(cache, extractedRequests, newOptions));
+            }
+
+            return Promise.all(waitAll);
+          });
+        })();
+      } else {
+        addAll = Promise.all(addAll);
+      }
+
+      return addAll;
+    });
+  }
+
+  function extractAssetsWithLoaders(request, response) {
+    var all = Object.keys(loadersMap).map(function (key) {
+      var loader = loadersMap[key];
+
+      if (loader.indexOf(request) !== -1 && loaders[key]) {
+        return loaders[key](response.clone());
+      }
+    }).filter(function (a) {
+      return !!a;
+    });
+
+    return Promise.all(all).then(function (all) {
+      return [].concat.apply([], all);
+    });
+  }
+
+  function matchCacheMap(request) {
+    var urlString = request.url;
+    var url = new URL(urlString);
+
+    var requestType = undefined;
+
+    if (request.mode === 'navigate') {
+      requestType = 'navigate';
+    } else if (url.origin === location.origin) {
+      requestType = 'same-origin';
+    } else {
+      requestType = 'cross-origin';
+    }
+
+    for (var i = 0; i < cacheMaps.length; i++) {
+      var map = cacheMaps[i];
+
+      if (!map) continue;
+      if (map.requestTypes && map.requestTypes.indexOf(requestType) === -1) {
+        continue;
+      }
+
+      var newString = undefined;
+
+      if (typeof map.match === 'function') {
+        newString = map.match(url, request);
+      } else {
+        newString = urlString.replace(map.match, map.to);
+      }
+
+      if (newString && newString !== urlString) {
+        return newString;
+      }
+    }
+  }
+}
+
+function cachesMatch(request, cacheName) {
+  return caches.match(request, {
+    cacheName: cacheName
+  }).then(function (response) {
+    if (isNotRedirectedResponse()) {
+      return response;
+    }
+
+    // Fix already cached redirected responses
+    return fixRedirectedResponse(response).then(function (fixedResponse) {
+      return caches.open(cacheName).then(function (cache) {
+        return cache.put(request, fixedResponse);
+      }).then(function () {
+        return fixedResponse;
+      });
+    });
+  })
+  // Return void if error happened (cache not found)
+  ['catch'](function () {});
+}
+
+function applyCacheBust(asset, key) {
+  var hasQuery = asset.indexOf('?') !== -1;
+  return asset + (hasQuery ? '&' : '?') + '__uncache=' + encodeURIComponent(key);
+}
+
+function getClientsURLs() {
+  if (!self.clients) {
+    return Promise.resolve([]);
+  }
+
+  return self.clients.matchAll({
+    includeUncontrolled: true
+  }).then(function (clients) {
+    if (!clients.length) return [];
+
+    var result = [];
+
+    clients.forEach(function (client) {
+      var url = new URL(client.url);
+      url.search = '';
+      url.hash = '';
+      var urlString = url.toString();
+
+      if (!result.length || result.indexOf(urlString) === -1) {
+        result.push(urlString);
+      }
+    });
+
+    return result;
+  });
+}
+
+function isNavigateRequest(request) {
+  return request.mode === 'navigate' || request.headers.get('Upgrade-Insecure-Requests') || (request.headers.get('Accept') || '').indexOf('text/html') !== -1;
+}
+
+function isNotRedirectedResponse(response) {
+  return !response || !response.redirected || !response.ok || response.type === 'opaqueredirect';
+}
+
+// Based on https://github.com/GoogleChrome/sw-precache/pull/241/files#diff-3ee9060dc7a312c6a822cac63a8c630bR85
+function fixRedirectedResponse(response) {
+  if (isNotRedirectedResponse(response)) {
+    return Promise.resolve(response);
+  }
+
+  var body = 'body' in response ? Promise.resolve(response.body) : response.blob();
+
+  return body.then(function (data) {
+    return new Response(data, {
+      headers: response.headers,
+      status: response.status
+    });
+  });
+}
+
+function copyObject(original) {
+  return Object.keys(original).reduce(function (result, key) {
+    result[key] = original[key];
+    return result;
+  }, {});
+}
+
+function logGroup(title, assets) {
+  console.groupCollapsed('[SW]:', title);
+
+  assets.forEach(function (asset) {
+    console.log('Asset:', asset);
+  });
+
+  console.groupEnd();
+}
+        WebpackServiceWorker(__wpo, {
+loaders: {},
+cacheMaps: [],
+});
+        module.exports = __webpack_require__(1)
+      
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+
+
+/***/ })
+/******/ ]);

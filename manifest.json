@@ -4,42 +4,72 @@
   "description": "https://github.com/Metnew/react-semantic.ui-starter",
   "icons": [
     {
-      "src": "images/touch/icon-128x128.png",
-      "sizes": "128x128",
+      "src": "icons/android-chrome-36x36.png",
+      "sizes": "36x36",
       "type": "image/png"
     },
     {
-      "src": "images/touch/apple-touch-icon.png",
-      "sizes": "152x152",
+      "src": "icons/android-chrome-48x48.png",
+      "sizes": "48x48",
       "type": "image/png"
     },
     {
-      "src": "images/touch/ms-touch-icon-144x144-precomposed.png",
+      "src": "icons/android-chrome-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/android-chrome-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/android-chrome-144x144.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "images/touch/chrome-touch-icon-192x192.png",
+      "src": "icons/android-chrome-192x192.png",
       "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/android-chrome-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/android-chrome-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/android-chrome-512x512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
   "start_url": ".",
   "display": "standalone",
   "background_color": "#f7f7f7",
-  "theme_color": "#1b1c1d",
-  "client.css": "client.f8ac2fbe.css",
-  "client.css.map": "client.f8ac2fbe.css.map",
-  "client.js": "client.f8ac2fbe.js",
-  "client.js.map": "client.f8ac2fbe.js.map",
+  "theme_color": "#009688",
+  "client.js": "client.501e89f9.js",
+  "client.js.map": "client.501e89f9.js.map",
   "flags.png": "9c74e172f87984c48ddf5c8108cabe67.png",
   "icons.eot": "674f50d287a8c48dc19ba404d20fe713.eot",
-  "icons.svg": "677433a0892aaed7b7d2628c313c9775.svg",
+  "icons.svg": "912ec66d7572ff821749319396470bde.svg",
   "icons.ttf": "b06871f281fee6b241d60582ae9369b9.ttf",
   "icons.woff": "fee66e712a8a08eef5805a46892932ad.woff",
   "icons.woff2": "af7ae505a9eed503f8b8e6982036873e.woff2",
-  "vendor.css": "vendor.fce0f545.css",
-  "vendor.css.map": "vendor.fce0f545.css.map",
-  "vendor.js": "vendor.fce0f545.js",
-  "vendor.js.map": "vendor.fce0f545.js.map"
+  "icons/logo.png": "icons/apple-touch-icon-57x57.png",
+  "lazy-containers6.js": "lazy-containers6.aba0ad.js",
+  "lazy-containers6.js.map": "lazy-containers6.aba0ad.js.map",
+  "lazy-containers7.js": "lazy-containers7.5a60d8.js",
+  "lazy-containers7.js.map": "lazy-containers7.5a60d8.js.map",
+  "manifest.js": "manifest.5f68b9cc.js",
+  "manifest.js.map": "manifest.5f68b9cc.js.map",
+  "vendor.css": "vendor.4dd5cda3.css",
+  "vendor.css.map": "vendor.4dd5cda3.css.map",
+  "vendor.js": "vendor.4dd5cda3.js",
+  "vendor.js.map": "vendor.4dd5cda3.js.map"
 }
